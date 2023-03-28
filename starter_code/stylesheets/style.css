@@ -1,11 +1,69 @@
-
-
-
 @media (min-width: 768px) {
     .pageOne {
         background-color: purple;
     }
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: purple;
+}
+
+header {
+    background-color: purple;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.slackFree {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+
+.buttons1 {
+    height: 50px;
+    width: 200px;
+}
+
+.logoGoogle {
+    height: 50px;
+    width: 200px;
+}
+
+.longWhite {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    display: none;
+    height: 0px;
+    width: 0px;
+}
+
+.link-tags {
+    display: flex;
+    flex-direction: row;
+}
+
 
 @media (min-width: 768px) {
     .pageTwo {
@@ -14,9 +72,7 @@
 
 }
 
-.pageOnelinks {
-    flex-direction: column;
-}
+
 
 
 /*
