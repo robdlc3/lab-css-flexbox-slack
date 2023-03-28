@@ -2,7 +2,7 @@ html {
     font-size: 10px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .pageOne {
         background-color: #540B51;
     }
@@ -13,12 +13,13 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     background-color: #540B51;
+   
 }
 
 header {
     background-color: #540B51;
-    margin: 0px;
-    padding: 0px;
+    margin: none;
+    padding: none;
 }
 
 h1 {
